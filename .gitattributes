@@ -1,0 +1,2 @@
+# Enforce LF line endings for cross-platform consistency
+* text=auto eol=lf
