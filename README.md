@@ -28,7 +28,7 @@ Create a personal portfolio webpage that showcases skills, projects, and persona
 CS5610/
 ├── index.html           # Homepage
 ├── about.html           # About page
-├── projects.html        # Projects showcase
+├── BookME.html          # Book me for volleyball showcase
 ├── ai-page.html         # AI-generated content page
 ├── css/
 │   └── styles.css       # Main stylesheet with Grid/Flexbox
