@@ -98,4 +98,11 @@ So that I can reach out for coaching, collaboration, or questions
 
 ## Wireframes
 
-![Home page](../images/home_page.png)
+- **Home page**
+  ![Home page](../images/home_wireframe.png)
+
+- **About me page**
+  ![About me page](../images/Aboutme_wireframe.png)
+
+- **Book me page**
+  ![Book me page](../images/Booking_wireframe.png)
