@@ -1,0 +1,23 @@
+{
+  "name": "personal-webpage",
+  "version": "1.0.0",
+  "description": "A personal portfolio and introduction webpage",
+  "type": "module",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "portfolio",
+    "personal",
+    "webpage"
+  ],
+  "author": "Ricky Lee",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}

@@ -1,53 +1,159 @@
-# Project (CS5610)
+# Personal Portfolio Webpage
 
-This folder is now prepared to be tracked with Git. Steps to initialize and push to GitHub are below.
+## Author
 
-## Local Git (run in this project folder)
+Ricky Lee
 
-```bash
-# initialize repo
-git init
+## Project Objective
 
-git add .
+Create a personal portfolio webpage that showcases skills, projects, and personality while meeting modern web development standards. The site demonstrates proficiency in HTML5, CSS3, JavaScript ES6 modules, responsive design, and web development best practices.
 
-git commit -m "Initial commit"
+## Features
 
-# set main branch (optional)
-git branch -M main
+- ✅ Responsive design (mobile, tablet, desktop)
+- ✅ ES6 modules for JavaScript organization
+- ✅ Semantic HTML5 structure
+- ✅ CSS Grid and Flexbox layouts
+- ✅ Accessibility features (alt text, semantic tags)
+- ✅ Original creative component (poem generator)
+- ✅ Multiple pages with navigation
+- ✅ AI-generated content page
+- ✅ Prettier code formatting
+- ✅ ESLint compliance
+- ✅ W3C HTML validation
+- ✅ MIT License
+
+## Project Structure
+
+```
+CS5610/
+├── index.html           # Homepage
+├── about.html           # About page
+├── projects.html        # Projects showcase
+├── ai-page.html         # AI-generated content page
+├── css/
+│   └── styles.css       # Main stylesheet with Grid/Flexbox
+├── js/
+│   ├── main.js          # Entry point (ES6 module)
+│   └── creative.js      # Creative component module
+├── images/              # Image assets with alt text
+├── docs/
+│   └── DESIGN_DOCUMENT.md  # Design document
+├── package.json         # Project dependencies
+├── .eslintrc.json       # ESLint configuration
+├── .prettierrc.json     # Prettier configuration
+├── LICENSE              # MIT License
+└── README.md            # This file
 ```
 
-## Create remote and push
+## Instructions to Build
 
-Option A — using GitHub CLI (`gh`):
+### Prerequisites
+
+- Node.js and npm installed
+- Code editor (VS Code recommended)
+- Modern web browser
+
+### Installation
+
+1. **Install Dependencies**
+
+   ```bash
+   npm install
+   ```
+
+2. **Format Code with Prettier**
+
+   ```bash
+   npm run format
+   ```
+
+3. **Check Code with ESLint**
+
+   ```bash
+   npm run lint
+   ```
+
+4. **Run Local Development Server**
+   ```bash
+   npm start
+   ```
+
+### File Organization
+
+- **HTML Files:** Root directory with semantic structure
+- **CSS:** `css/` folder with organized stylesheets
+- **JavaScript:** `js/` folder with ES6 modules
+- **Images:** `images/` folder with descriptive alt text
+- **Documentation:** `docs/` folder with design documents
+
+## Deployment
+
+### Deploy to GitHub Pages
+
+1. Create a GitHub repository
+2. Push your code:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/yourusername/personal-webpage.git
+   git push -u origin main
+   ```
+3. Enable GitHub Pages in repository settings
+4. Select `main` branch as the source
+
+### W3C HTML Validation
+
+- Visit https://validator.w3.org
+- Upload or link to your HTML files
+- Ensure no errors are reported
+
+### ESLint Validation
 
 ```bash
-# creates repo on GitHub and pushes
-gh repo create <USERNAME>/<REPO> --public --source=. --remote=origin --push
+npm run lint
 ```
 
-Option B — create repo on GitHub website, then:
+### Prettier Code Formatting
 
 ```bash
-git remote add origin https://github.com/<USERNAME>/<REPO>.git
-git push -u origin main
+npm run format
 ```
 
-## Make Node version persistent (optional)
+## Technologies Used
 
-To make the installed Node version the default for new shells:
+- **HTML5** - Semantic markup
+- **CSS3** - Grid, Flexbox, CSS Variables
+- **JavaScript ES6** - Modules, modern syntax
+- **Prettier** - Code formatter
+- **ESLint** - Code linter
 
-```bash
-nvm alias default 25.2.1
-```
+### Tools and Models Used
 
-## Notes
+\*\*Claude (Anthropic)
 
-- `node_modules/` is ignored by `.gitignore` — do not commit it. Use `package.json` + `package-lock.json` (or `yarn.lock`) to reproduce installs across platforms.
-- If you want, I can create the GitHub repo for you (requires `gh` auth) or show exact commands for your username/repo name.
+#### Tasks Completed with AI Assistance:
 
-## Cross-platform (Windows ↔ macOS) checklist
+**AI-Generated Content Page (ai-page.html)**
 
-- **Pin Node version:** the repo includes `.nvmrc` set to `25.2.1`. On each machine run:
+- Task: Generate creative content about AI and web development
+- Prompt: "Write thoughtful content about the intersection of AI and web development for a creative portfolio page"
+- Output: The article content in the AI-Generated Creative Page section
+- Modification: Integrated into custom HTML structure with manual styling adjustments
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Course instructor and classmates for feedback and guidance
+- Web development community for best practices and resources
+- AI models used for content generation and code assistance
+
+---
 
 ```bash
 nvm install
@@ -57,7 +163,6 @@ nvm use
 - **Line endings:** `.gitattributes` enforces LF to avoid accidental CRLF issues on macOS.
 
 - **Avoid OS-specific shell commands in `package.json` scripts**: use cross-platform packages when needed:
-
   - Use `rimraf` instead of `rm -rf` for cross-platform removal.
   - Use `cross-env` to set environment variables in scripts.
 
@@ -75,5 +180,3 @@ nvm use
 # install deps
 npm install
 ```
-
-- If you want, I can scaffold a minimal `package.json` with `cross-env` and `rimraf`, and add an install/test script. Tell me if you want me to add that.
