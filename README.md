@@ -15,7 +15,6 @@ Create a personal portfolio webpage that showcases skills, projects, and persona
 - ✅ Semantic HTML5 structure
 - ✅ CSS Grid and Flexbox layouts
 - ✅ Accessibility features (alt text, semantic tags)
-- ✅ Original creative component (poem generator)
 - ✅ Multiple pages with navigation
 - ✅ AI-generated content page
 - ✅ Prettier code formatting
