@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The Personal Portfolio Webpage is a professional introduction site designed to showcase your skills, projects, and personality. It serves as a digital representation of your professional identity and creative capabilities. The site features a clean, modern design with an emphasis on user experience and accessibility.
+The Personal Portfolio Webpage is a professional introduction site designed to showcase my skills, projects, and personality. It serves as a digital representation of your professional identity and creative capabilities. The site features a clean, modern design with an emphasis on user experience and accessibility.
 
 ---
 
@@ -95,3 +95,7 @@ So that I can reach out for coaching, collaboration, or questions
 - **JavaScript:** ES6 Modules
 - **Tools:** Prettier (code formatting), ESLint (linting)
 - **Deployment:** GitHub Pages
+
+## Wireframes
+
+![Home page](../images/home_page.png)
