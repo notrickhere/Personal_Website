@@ -108,3 +108,33 @@ a:hover {
 .fade-in {
   animation: fadeIn 0.5s ease-in-out;
 }
+
+/* Profile page */
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Booking page */
+.booking-card {
+  width: 100%;
+  max-width: 350px;
+}
+
+.booking-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* AI page */
+.ai-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Creative button */
+.creative-btn {
+  padding: 20px 40px;
+  font-size: 1.2rem;
+}
