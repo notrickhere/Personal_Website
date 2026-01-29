@@ -4,14 +4,6 @@
 
 Ricky Lee
 
-## Class
-
-[CS5610 Web Development - Northeastern University](https://johnguerra.co/classes/webDevelopment_spring_2025/)
-
-## Screenshot
-
-![Homepage](./images/home_wireframe.png)
-
 ## Project Objective
 
 Create a personal portfolio webpage that showcases skills, projects, and personality while meeting modern web development standards. The site demonstrates proficiency in HTML5, CSS3, JavaScript ES6 modules, responsive design, and web development best practices.
